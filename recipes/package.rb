@@ -41,7 +41,7 @@ when "redhat","centos"
   end
 
   if platform_version >= 6
-    package_version = "#{package_version}.el#{platform_version}"
+    package_version = "#{package_version}.el#{platform_version}.centos"
   end
 
   package "riak-cs" do
